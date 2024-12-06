@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+header nav
+{
+    display: flex;
+    width: 100%;
+}
+header ul
+{
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+
+    
+}
+header ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+main
+{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+/* .................... */
+.introduction
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    width: 100%;
+}
+.introduction-content
+{
+    margin: 0 1rem 0 0 ;
+}
+.introduction-content h2{
+    color: rgb(0, 0, 0);
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0;
+    
+}
+.introduction p{
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 1rem 0;
+
+}
+.introduction-content button{
+    padding: 1rem 2rem;
+    background-color: #ffee00;
+    color: #000000;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    cursor: pointer;
+}
