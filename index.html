@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="desktop-nav">
             <a href="#"><img src="./assets/images/Main-Logo.png" alt="Logo"></a>
             <ul>
                 <li><a href="#work">WORK</a></li>
@@ -17,10 +17,24 @@
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
+        <!-- <nav class="mobile-nav">
+            <a href="#"><img src="./assets/images/Main-Logo.png" alt="Logo"></a>
+            <div class="hamburger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="mobile-menu">
+                <li><a href="#work">WORK</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav> -->
     </header>
     <main>
         <!-- introduction section -->
-        <section class="introduction">
+        <section class="introduction" >
             <div class="introduction-content">
                 <h2>Hello!!!<br>We Are Creative Digital Agency</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -30,7 +44,7 @@
         </section>
 
         <!-- Works section -->
-        <section class="works">
+        <section class="works" id="work">
             <h1 class="heading">WORK SHOWCASE.</h1>
             <div class="gallery">
                 <div class="column">
@@ -60,7 +74,7 @@
         </section>
 
         <!-- About Us section -->
-        <section class="about-us">
+        <section class="about-us" id="about">
             <h1 class="heading">ABOUT US.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <br>ut labore et dolore magna aliqua.</p>
         <div class="team-details">
@@ -90,8 +104,8 @@
         </div>
 
         </section>
-
-        <section class="contact">
+<!-- contact section -->
+        <section class="contact" id="contact">
             <h1 class="heading">CONTACT US.</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <div class="contact-details">
@@ -125,5 +139,7 @@
             <a href="#top" class="back-to-top">^BACK TO TOP</a>
         </div>
     </footer>
+
+  
 </body>
 </html>
