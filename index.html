@@ -17,7 +17,7 @@
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <!-- <nav class="mobile-nav">
+        <nav class="mobile-nav">
             <a href="#"><img src="./assets/images/Main-Logo.png" alt="Logo"></a>
             <div class="hamburger-menu">
                 <span></span>
@@ -30,7 +30,7 @@
                 <li><a href="#blog">BLOG</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
-        </nav> -->
+        </nav>
     </header>
     <main>
         <!-- introduction section -->
@@ -125,9 +125,14 @@
 
         <!-- icons -->
         <section class="icons">
-            <img src="./assets/images/Icon-1.png" alt="Icon 1">
-            <img src="./assets/images/Icon-2.png" alt="Icon 2">
-            <img src="./assets/images/Icon-3.png" alt="Icon 3">
+            <div class="icons-wrapper">
+                <img src="./assets/images/Icon-1.png" alt="Icon 1">
+                <img src="./assets/images/Icon-2.png" alt="Icon 2">
+                <img src="./assets/images/Icon-3.png" alt="Icon 3">
+                <img src="./assets/images/Icon-1.png" alt="Icon 1">
+                <img src="./assets/images/Icon-2.png" alt="Icon 2">
+                <img src="./assets/images/Icon-3.png" alt="Icon 3">
+            </div>
         </section>
 
     </main>
@@ -139,6 +144,17 @@
             <a href="#top" class="back-to-top">^BACK TO TOP</a>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    hamburgerMenu.addEventListener('click', () => {
+        hamburgerMenu.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+    });
+});
+    </script>
 
   
 </body>
