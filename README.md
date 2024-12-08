@@ -9,7 +9,7 @@
 
 ## 📍 Overview
 
-This repository contains a modern, responsive, and interactive portfolio website built with **HTML**, **CSS**, and **JavaScript**. The site is designed to showcase projects, skills, and personal information in a professional and visually appealing manner. It includes responsive layouts and animations for enhanced user experience.
+This repository contains a modern, responsive, and interactive company website assessment built with **HTML**, **CSS**, and **JavaScript**. The site is designed to showcase the company's projects, skills, and information in a professional and visually appealing manner. It includes sections such as header, work, about, contact, and footer, with responsive layouts and animations for enhanced user experience.
 
 ---
 
@@ -73,13 +73,6 @@ Clone the thewebpeople repository:
 
 - On desktop, navigate through the top menu.
 - On mobile, click the hamburger menu to access the navigation.
-
-### Sections
-
-- **Introduction**: Learn about the person or business.
-- **Works**: Explore featured projects or artworks.
-- **About Us/Team**: Highlight team members or company background.
-- **Contact**: Use the form to send a message or get in touch.
 
 ### Customization
 
